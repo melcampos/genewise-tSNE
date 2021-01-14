@@ -10,7 +10,7 @@ do
 	vcf_file=$vcf_directory/$gene_id$".vcf"
 	
 	#For combined filtering steps
-  cat $vcf_file | grep -v "intron_variant" | grep -v "intragenic_variant" | grep -v "intergenic_region" | grep -v "3_prime_UTR_variant" | grep -v "5_prime_UTR_variant" | grep -v "synonymous_variant"  > $output_directory/$gene_id$".vcf"
+  cat $vcf_file | grep -v "intron_variant" | grep -v "intragenic_variant" | grep -v "intergenic_region" | grep -v "3_prime_UTR_variant" | grep -v "5_prime_UTR_variant"  > $output_directory/$gene_id$".vcf"
 
 	#For individual filtering steps
 	#cat $vcf_file | grep -v "intron_variant" > $output_directory/$gene_id$".vcf"
