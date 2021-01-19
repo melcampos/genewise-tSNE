@@ -7,12 +7,13 @@ Unravelling population structure heterogeneity within the genome of the malaria 
 - `filter_SNPs.sh` : Select exonic SNPs;
 
 ## Gene by gene PCA plotting, distance matrix and other metrics
+- `metrics.sh` & `metrics2.sh` : Check VCF metrics such as: missing data, SNP frequency, number of SNPs, nucleotide diversity, etc.
 - `genewise-Fst.R` : Calculate Fst between M and S forms for each gene;
-- `hfst_se_by_group.csv` (results) : Standard error estimates of `hfst_by_group.csv`
-- `pi_by_group.csv` (results) : Sequence diversity (&pi;) within each sample group
+- `genewise-PCA.R` : Perform a principal component analysis for each gene and convert to VCF to GDS;
+- `genewise-dist.R` : Perform distance matrix for each gene;
 
 ## Linearize matrices and big table format
-- `filter_SNPs.sh` : select exonic SNPs
-- `hfst_se_by_group.csv` (results) : Standard error estimates of `hfst_by_group.csv`
-- `pi_by_group.csv` (results) : Sequence diversity (&pi;) within each sample group
+- `bigtab-create.R` : Create the big table with all linearized values for each gene;
+- `bigtab-PCA.R` : PCA of big table created;
+- `bigtab-tSNE.R`: tSNE of PCs. 
 
