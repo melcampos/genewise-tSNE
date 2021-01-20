@@ -1,6 +1,7 @@
 # genewise-tSNE
 
-Unravelling population structure heterogeneity within the genome of the malaria vector Anopheles gambiae
+Unravelling population structure heterogeneity within the genome of the malaria vector Anopheles gambiae. 
+Data set from Anopheles gambiae 1,000 Genomes Project phase 1. https://www.malariagen.net/projects/ag1000
 
 ## Variant calling files preparation
 - `gene-extractor.pl` : Extract individual VCF files for each gene or window;
@@ -16,4 +17,8 @@ Unravelling population structure heterogeneity within the genome of the malaria 
 - `bigtab-create.R` : Create the big table with all linearized values for each gene;
 - `bigtab-PCA.R` : PCA of big table created;
 - `bigtab-tSNE.R`: tSNE of PCs. 
+
+## DBScan
+## 
+## 
 
