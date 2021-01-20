@@ -18,7 +18,6 @@ Data set from Anopheles gambiae 1,000 Genomes Project phase 1. https://www.malar
 - `bigtab-PCA.R` : PCA of big table created;
 - `bigtab-tSNE.R`: tSNE of PCs. 
 
-## DBScan
 ## 
 ## 
 
