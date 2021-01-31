@@ -22,5 +22,5 @@ Data set from Anopheles gambiae 1,000 Genomes Project phase 1. https://www.malar
 - `bigtab-tSNE-plot.R` : plot for figure 2;
 
 ## DBScan
--`per-chro-DBScan.R` : Performe DBScan for collinear regions of each chromosome arm (2L example).
+- `per-chro-DBScan.R` : Performe DBScan for collinear regions of each chromosome arm (2L example).
 
