@@ -19,7 +19,7 @@ Data set from Anopheles gambiae 1,000 Genomes Project phase 1. https://www.malar
 - `bigtab-tSNE.R`: tSNE of PCs. 
 
 ## Plotting in R
-- `bigtab-tSNE-plot.R` : plot for figure 1;
+- `bigtab-tSNE-plot.R` : plot for figure 2;
 
 ## 
 
