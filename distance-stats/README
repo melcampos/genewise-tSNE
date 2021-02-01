@@ -1,0 +1,29 @@
+### Required input files
+
+1. data/tsne{01..30}.txt
+
+Inter-gene Euclidean distances (in t-SNE 2D plot space) between all pairs of genes.
+These are large files... 3GB each.
+
+Column 0 = ignored
+Column 1 = GeneID1
+Column 2 = GeneID2
+Column 3 = distance
+
+One file for each t-SNE replicate
+
+
+2. filtered-data/tsne{01..30}.txt
+
+Same as above but filtered to exclude pairs of genes with distance > 5
+
+
+
+### How to generate the distance files for the web interface
+
+1. run ./distance-stats-merge.pl (see comments at start of script for info)
+
+2. run ./add-local-distance-stats.pl (ditto)
+
+
+
