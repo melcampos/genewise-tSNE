@@ -24,3 +24,5 @@ Data set from Anopheles gambiae 1,000 Genomes Project phase 1. https://www.malar
 ## DBScan
 - `per-chro-DBScan.R` : Performe DBScan for collinear regions of each chromosome arm (2L example).
 
+## Web Interface
+- Directory : shiny
